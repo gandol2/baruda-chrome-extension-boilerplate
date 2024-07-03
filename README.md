@@ -2,10 +2,10 @@
 
 ## 1. Edit src/manifest.json
 
-[ ] name
-[ ] description
-[ ] icons
-[ ] content_scripts.matches
+- [ ] name
+- [ ] description
+- [ ] icons
+- [ ] content_scripts.matches
 
 ## 2. Edit src/pages/Content/index.js
 
