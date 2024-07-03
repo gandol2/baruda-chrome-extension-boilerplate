@@ -1,0 +1,172 @@
+.debug_popup {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  /* width: 50px; */
+  /* height: 50px; */
+  background-color: red;
+  color: white;
+  z-index: 999;
+  padding: 5px;
+}
+#search_wrap {
+  /* height: 500px; */
+  /* background-color: red; */
+  border: 1px solid #e3e2e2;
+}
+
+#search_wrap::before {
+  content: '키워드 검색량';
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.__info_wrap {
+  background-color: black;
+  color: white;
+  width: 100%;
+  /* height: 52px; */
+}
+
+.__badge {
+  position: absolute;
+  top: -7px;
+  right: 17px;
+  /* width: 35px; */
+  /* height: 32px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #33333d10; */
+  /* color: black; */
+  white-space: pre-line;
+  /* border: 1px solid #ffffff; */
+  /* box-shadow: 2px 2px 2px 1px rgb(100 100 100 / 80%); */
+}
+
+.__badge_ad::before {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  left: 2px;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: red;
+  border: 1px solid white;
+  /* border: 1px solid white; */
+  /* box-shadow: 1px 1px 1px 1px rgb(100 100 100 / 80%); */
+  /* border-left: 3px solid #f56655;
+  border-top: 3px solid #f56655; */
+}
+.__badge_roket::after {
+  content: '';
+  position: absolute;
+  display: inline-block;
+  right: 2px;
+  top: 2px;
+  width: 10px;
+  height: 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: lawngreen;
+  border: 1px solid white;
+  /* border-right: 3px solid #42b97e;
+  border-bottom: 3px solid #42b97e; */
+}
+
+.__badge_grade {
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  text-shadow: 0.5px 0.5px 0.5px grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  color: white;
+  font-size: 2rem;
+  border: 1px solid white;
+  box-shadow: 2px 2px 2px 1px rgb(100 100 100 / 80%);
+}
+
+.__badge_grade_sss {
+  font-size: 1.5rem;
+}
+
+.__badge_grade_s,
+.__badge_grade_ss,
+.__badge_grade_sss {
+  background: rgb(246, 105, 175);
+  background: linear-gradient(
+    137deg,
+    rgba(246, 105, 175, 1) 0%,
+    rgba(246, 141, 102, 1) 100%
+  );
+}
+
+.__badge_grade_a {
+  background: rgb(103, 130, 255);
+  background: linear-gradient(
+    137deg,
+    rgba(103, 130, 255, 1) 0%,
+    rgba(164, 148, 254, 1) 100%
+  );
+}
+
+.__badge_grade_b {
+  background: rgb(65, 201, 121);
+  background: linear-gradient(
+    137deg,
+    rgba(65, 201, 121, 1) 0%,
+    rgba(160, 218, 80, 1) 100%
+  );
+}
+
+.__badge_grade_c {
+  background: rgb(248, 213, 213);
+  background: linear-gradient(
+    137deg,
+    rgba(248, 213, 213, 1) 0%,
+    rgba(249, 226, 202, 1) 100%
+  );
+}
+
+.__badge_grade_none {
+  background: rgb(143, 143, 143);
+  background: linear-gradient(
+    137deg,
+    rgba(143, 143, 143, 1) 0%,
+    rgba(215, 215, 215, 1) 100%
+  );
+}
+
+.__li_grade_s,
+.__li_grade_ss,
+.__li_grade_sss {
+  box-shadow: 0 0 0 6px rgb(246, 105, 175) inset;
+}
+
+.__li_grade_a {
+  box-shadow: 0 0 0 4px rgb(103, 130, 255) inset;
+}
+
+.__li_grade_b {
+  box-shadow: 0 0 0 2px rgb(65, 201, 121) inset;
+}
+
+.__li_grade_c {
+  box-shadow: 0 0 0 1px rgb(248, 213, 213) inset;
+}
+
+.__li_grade_none {
+  box-shadow: 0 0 0 1px rgb(143, 143, 143) inset;
+}
